@@ -100,7 +100,7 @@
 .find-container{
     /* border: 2px  solid red; */
     width: 50%;
-    height: 30px;
+    height: 40px;
     border-radius: 7px;
     display: inline-flex;
     padding: 10px;
@@ -169,4 +169,97 @@ border-radius: 8px;
     border: none;
 }
 
-/* Section-1 Ends Here */
+/* Section-1 Ends Here and Section- 2 Starts  */
+
+.section-2{
+    text-align: center;
+    margin: 100px 270px 50px;
+}
+
+.section-2 #Destination-title{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.section-2 #Destination-description{
+    text-wrap: wrap;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.section-3{
+    margin: 0px 140px;
+    
+}
+
+.place-line-1{
+    display: flex;
+    margin-bottom: 18px;
+    /* border: 2px solid black; */
+}
+
+#Indonesia{
+    height: 50%;
+    width: 50%;
+  margin-left: 18px;  
+}
+
+#maldives{
+    height: 50%;
+    width: 50%;
+    
+}
+
+.place-line-2{
+    display: flex;
+    margin-top: 0px; 
+    margin-bottom: 18px;   
+}
+
+#srilanka{
+    width: 33%;
+    height: 50%;
+}
+ #North{
+    width: 41%;
+    height:50%;
+    margin-left: 18px;
+}
+#kashmir{
+    width: 23.5%;
+    height: 50%;
+    margin-left: 18px;
+}
+
+.place-line-3{
+    display: flex;
+    margin-bottom: 100px;
+}
+#bd{
+    width: 41%;
+    height: 55%;
+}
+#ban{
+    width: 58%;
+    height: 45%;
+    margin-left: 18px;
+}
+
+.section-4{
+    text-align: center;
+    margin: 20px 270px 50px;
+}
+
+.section-4 #section-4-title{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.section-4 #section-4-description{
+    text-wrap: wrap;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
