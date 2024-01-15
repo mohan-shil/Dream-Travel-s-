@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
 *{
     margin: 0px;
-    
+    font-family: Mulish;
 }
 
-/* Nav bar styles start */
+/* Header and Nav bar styles start */
 
 .nav-container{
     display: flex;
     align-items: center;
+    margin: 0px 140px;
     /* border: 2px solid black; */
     
 }
@@ -16,7 +18,7 @@
     display: flex;   
     /* border: 2px solid black; */
     width: 40%;
-    margin: 50px 120px 40px ;
+    margin: 50px 0px;
     text-align: center;
     align-items: center;
 
@@ -30,27 +32,104 @@
 .logo{
     color: #131318;
     font-size: 36px;
-    font-weight: 800;
-    
+        
 }
 
 .logo #logo-title{
+    font-weight: 800px;  
     color: #FF5400; 
 }
 
 .Navigation {
-    
-    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    width: 50%;
+    /* border: 2px solid black; */
 }
 .Navigation a{
     text-decoration: none;
     font-size: 18px;
-    padding: 40px;
-    color: var(--Dark-02, #424247);
+    color:  #535358;
+    font-weight: 400;
     
 }
 
 #home-style{
-    color: #FF5400;    
+    color: #FF5400;
+    font-weight: 800;    
 }
 /* Nav bar style ends here  */
+
+.explore-container{
+    /* border: 2px solid black; */
+    margin: 0px 140px;
+    background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);    
+}
+
+#exlore-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+
+#text-explore{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+}
+#text-explore-description{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.find-container{
+    /* border: 2px  solid red; */
+    width: 50%;
+    height: 30px;
+    border-radius: 7px;
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+
+#find-container-box-1, #find-container-box-2, 
+#find-container-box-3, #find-container-box-4{
+font-size: 15px;
+width: 170px;
+height: 30px;
+flex-shrink: 0;
+text-align: center;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+}
+
+#find-container-box-2, #find-container-box-3{
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+}
