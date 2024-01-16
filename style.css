@@ -64,7 +64,6 @@
 .explore-container{
     /* border: 2px solid black; */
     margin: 0px 140px;
-    background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);    
 }
 
 #exlore-image{
@@ -346,14 +345,23 @@ border-radius: 8px;
     display: grid;
     margin: 0px 173px;
     gap: 18px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .discount-content #pic-1{
     height: 100%;
     width: 100%;
 }
+.discount-content #pic-2{
+    height: 100%;
+    width: 100%;
+}
+.discount-content #pic-3{
+    height: 100%;
+    width: 100%;
+}
 .discount-content img{
     position: relative;
+    margin-bottom: 18px;
 }
 /* .book-1{
     
@@ -416,6 +424,129 @@ transform: translate(110%, -120%);
 margin-bottom: 15px;
    
 }
+
+/* Last Part Starts */
+
+
+.package-btn {
+    margin: 5% 45%;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600 ;
+    font-size: 16px;
+    text-align: center;
+    color: azure;
+    background: #FF5400;
+    width: 140px;
+    height: 35px;
+    border: none;
+}
+
+/* Last section Starts */
+
+.first-para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0px 173px;
+    margin-bottom: 18px;
+}
+
+.first-para h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    padding: 15px;
+}
+.first-para p{
+    padding: 15px;
+    color: #535358;
+    text-wrap: wrap;
+}
+
+.first-para li{
+    padding: 5px 15px;
+    color: black;
+    text-wrap: wrap;
+}
+
+.first-image{
+
+}
+
+.see-more-btn{
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600 ;
+    font-size: 17px;
+    text-align: center;
+    color: azure;
+    background: #FF5400;
+    width: 160px;
+    height: 45px;
+    border: none;
+}
+
+
+.second-para{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 0px 173px;
+    
+}
+
+.row-2{
+    border: 2px solid #FF5400;
+    border-radius: 15px;
+}
+.second-para h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600px;
+    padding:  30px 10px 2px 30px;
+}
+.second-para p{
+    padding:  30px;
+    padding-top: 15px;
+    color: #535358;
+    text-wrap: wrap;
+}
+
+.second-para input{
+    padding: 10px;
+    width: 80%;
+    height: 8%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border: .5 px solid grey;
+}
+
+.subscribe-btn{
+    margin: 58px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600 ;
+    font-size: 17px;
+    text-align: center;
+    color: azure;
+    background: #FF5400;
+    width: 350px;
+    height: 40px;
+    border: none;
+}
+
+
+
+
+
 
 /* Footer Section */
 
