@@ -32,12 +32,14 @@
 .logo{
     color: #131318;
     font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
         
 }
 
 .logo #logo-title{
     font-weight: 800px;  
     color: #FF5400; 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .Navigation {
@@ -116,7 +118,7 @@
 }
 
 #find-container-box-1, #find-container-box-2, 
-#find-container-box-3, #find-container-box-4{
+#find-container-box-3{
 font-size: 15px;
 width: 150px;
 height: 30px;
@@ -125,6 +127,16 @@ text-align: center;
 justify-content: center;
 align-items: center;
 border-radius: 8px;
+}
+
+.find-container-box-4 {
+    background-color: #FF5400;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    width: 155px;
+    height: 35px;
+    border-radius: 8px;
 }
 
 /* Header Styles Ends Here */

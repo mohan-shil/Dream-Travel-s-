@@ -1,0 +1,116 @@
+@media screen and (max-width: 600px){
+
+/*Header Section  */
+*{
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    /* border: 2px solid black; */    
+}
+.logo-title-container{
+    display: flex;   
+    /* border: 2px solid black; */
+    /* width: 40%;
+    margin: 50px 0px; */
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+}
+.logo-image{
+    height: 40%;
+    width: 20%;
+    margin-right: 4px;
+    /* border: 2px solid black;     */
+}
+.logo{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #131318;
+    font-size: 10px;
+    /* border: 2px solid blue; */
+    margin: 0px;
+    text-align: center;
+}
+.logo #logo-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;  
+    color: #FF5400; 
+    text-align: center;
+    margin-left: 1px;
+}
+
+.Navigation {
+    display: flex;
+    text-wrap: wrap;
+    justify-content: space-between;
+    /* width: 75%; */
+    /* border: 2px solid black; */
+}
+.Navigation a{
+
+    text-decoration: none;
+    color:  #535358;
+    font-weight: 400;
+    font-size: 6px;
+    /* margin-right: 5px; */
+}
+
+
+.explore-container{
+    /* border: 2px solid black; */
+    margin: 5px; 
+    max-width: 100%;
+    height: auto;
+display: block;
+}
+#text-explore{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -1580%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800px;
+}
+#text-explore-description{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -880%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 6px;
+    font-weight: 400px;
+    /* border: 2px  solid red; */
+}
+.find-container{
+    /* border: 2px  solid red; */
+    width: 50%;
+    height: 18%;
+    border-radius: 7px;
+    display: inline-grid;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -160%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+
+
+
+
+
+}
